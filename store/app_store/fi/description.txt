@@ -1,0 +1,24 @@
+Acoustic Drone Detector kuuntelee dronen potkurien ääntä ja varoittaa, kun drone on lähellä, myös silloin kun appi on taustalla.
+
+NÄIN SE TOIMII
+• Potkurit tuottavat tasaisia sävyjä lavan ohitustaajuudella ja sen tarkoilla monikerroilla. Appi oppii ensin ympäristösi äänet ja etsii sitten uusia harmonisia ääniä.
+• Dronelle tyypillisiä piirteitä painotetaan: useiden roottorien tunnusmerkki, vaihteleva pyörimisnopeus, vaihteleva voimakkuus ja se, ettei ääni ole lukittu sähköverkon taajuuteen. Tuulettimet ja ilmastointilaitteet laukaisevat hälytyksen paljon harvemmin.
+• Googlen YAMNet-äänimalli antaa toisen mielipiteen suoraan laitteellasi. Lopullinen päätös yhdistää molemmat.
+
+SIJAINTISI MUKAAN
+Valitse Sisällä, Kaupunki tai Avoin alue, niin herkkyys mukautuu. Hienosäädä milloin tahansa.
+
+HUOMIOTA HERÄTTÄVÄT HÄLYTYKSET
+Kiireellinen ilmoitus SOS-äänellä ja värinällä.
+
+YKSITYISYYS SISÄÄNRAKENNETTUNA
+Ääntä ei koskaan tallenneta eikä lähetetä minnekään. Kaikki toimii iPhonessasi tai iPadissasi. Ei tilejä, mainoksia tai seurantaa.
+
+LISÄKSI
+• Live-spektri, joka korostaa havaitut harmoniset viivat
+• Havaintoloki ajan, keston ja taajuuden kanssa
+• ”Ohita tämä ääni” laitteille, jotka hurisevat kuin drone
+• iPhonelle ja iPadille, pysty- ja vaakasuunnassa sekä Split View’ssa
+
+RAJOITUKSET
+Tunnistusetäisyys riippuu dronesta, tuulesta ja taustamelusta, ja se on yleensä lyhyt. Moottorit, sahat ja vastaavat äänet voivat aiheuttaa vääriä hälytyksiä. Älä käytä tätä appia ainoana lähteenä turvallisuuskriittisissä päätöksissä.

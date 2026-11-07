@@ -1,0 +1,1 @@
+drooni,uav,kopteri,potkuri,ääni,hälytys,kuuntelu,fpv,turvallisuus,yksityisyys,melu,ilmaisin

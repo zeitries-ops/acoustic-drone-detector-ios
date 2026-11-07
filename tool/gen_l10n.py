@@ -155,9 +155,10 @@ def main():
         platform[f'ios/{IOS_LPROJ.get(c, c)}.lproj/InfoPlist.strings'] = (
             f'/* {d["@@name"]} — tool/gen_l10n.py */\n"NSMicrophoneUsageDescription" = "{mic}";\n')
     platform['ios/languages.txt'] = '\n'.join(IOS_LPROJ.get(c, c) for c in langs) + '\n'
-    platform['android/locales_config.xml'] = (
-        '<?xml version="1.0" encoding="utf-8"?>\n<!-- tool/gen_l10n.py -->\n<locale-config xmlns:android="http://schemas.android.com/apk/res/android">\n'
-        + ''.join(f'    <locale android:name="{ANDROID_TAG.get(c, c)}"/>\n' for c in langs) + '</locale-config>\n')
+    if (ROOT / 'android').exists() or (PLATFORM / 'android').exists():  # iOS deposunda Android yok
+      platform['android/locales_config.xml'] = (
+          '<?xml version="1.0" encoding="utf-8"?>\n<!-- tool/gen_l10n.py -->\n<locale-config xmlns:android="http://schemas.android.com/apk/res/android">\n'
+          + ''.join(f'    <locale android:name="{ANDROID_TAG.get(c, c)}"/>\n' for c in langs) + '</locale-config>\n')
 
     if check:
         stale = [k for k, v in platform.items() if not (PLATFORM / k).exists() or (PLATFORM / k).read_text(encoding='utf-8') != v]

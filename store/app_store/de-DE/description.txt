@@ -1,0 +1,24 @@
+Acoustic Drone Detector lauscht auf das Geräusch von Drohnenpropellern und warnt dich, wenn eine in der Nähe ist – auch wenn die App im Hintergrund läuft.
+
+SO FUNKTIONIERT’S
+• Propeller erzeugen gleichmäßige Töne bei der Blattfolgefrequenz und ihren exakten Vielfachen. Die App lernt zuerst die Geräusche um dich herum und sucht dann nach neuen harmonischen Geräuschen.
+• Drohnentypische Merkmale werden gewichtet: die Signatur mehrerer Rotoren, wechselnde Drehzahl, schwankender Pegel und keine Kopplung an die Netzfrequenz. Ventilatoren und Klimaanlagen lösen deutlich seltener Alarm aus.
+• Eine zweite Meinung vom Audiomodell YAMNet von Google läuft auf deinem Gerät. Die endgültige Entscheidung kombiniert beide.
+
+ABGESTIMMT AUF DEINEN ORT
+Wähle „Drinnen“, „Stadt“ oder „Freies Gelände“, und die Empfindlichkeit passt sich an. Feinabstimmung jederzeit möglich.
+
+ALARME, DIE AUFFALLEN
+Eine dringende Mitteilung mit SOS-Ton und Vibration.
+
+DATENSCHUTZ VON ANFANG AN
+Audio wird nie aufgenommen oder irgendwohin gesendet. Alles läuft auf deinem iPhone oder iPad. Keine Konten, keine Werbung, kein Tracking.
+
+AUSSERDEM
+• Live-Spektrum, das die erkannten harmonischen Linien hervorhebt
+• Erkennungsprotokoll mit Uhrzeit, Dauer und Frequenz
+• „Diesen Ton ignorieren“ für Geräte, die wie eine Drohne brummen
+• Für iPhone und iPad, im Hoch- und Querformat und in Split View
+
+GRENZEN
+Die Erkennungsreichweite hängt von der Drohne, vom Wind und von Hintergrundgeräuschen ab und ist meist gering. Motoren, Sägen und ähnliche Geräusche können Fehlalarme auslösen. Verlass dich bei sicherheitskritischen Entscheidungen nicht allein auf diese App.

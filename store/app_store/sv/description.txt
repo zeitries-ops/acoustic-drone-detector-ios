@@ -1,0 +1,24 @@
+Acoustic Drone Detector lyssnar efter ljudet från drönarpropellrar och varnar dig när en drönare är i närheten, även när appen körs i bakgrunden.
+
+SÅ FUNGERAR DET
+• Propellrar skapar jämna toner vid bladpassagefrekvensen och dess exakta multiplar. Appen lär sig först ljuden omkring dig och letar sedan efter nya harmoniska ljud.
+• Drönartypiska ledtrådar vägs in: signaturen från flera rotorer, varierande varvtal, svajande nivå och att ljudet inte är låst till elnätet. Fläktar och luftkonditionering ger betydligt färre larm.
+• En andra bedömning från Googles ljudmodell YAMNet körs på din enhet. Det slutliga beslutet kombinerar båda.
+
+ANPASSAD EFTER PLATSEN
+Välj Inomhus, Stad eller Öppen terräng så anpassas känsligheten. Finjustera när du vill.
+
+LARM SOM MÄRKS
+En tidskänslig notis med SOS-signal och vibration.
+
+INTEGRITET FRÅN GRUNDEN
+Ljud spelas aldrig in och skickas aldrig någonstans. Allt körs på din iPhone eller iPad. Inga konton, ingen reklam, ingen spårning.
+
+DESSUTOM
+• Livespektrum som markerar de upptäckta harmoniska linjerna
+• Logg över upptäckter med tid, längd och frekvens
+• ”Ignorera det här ljudet” för apparater som brummar som en drönare
+• För iPhone och iPad, i stående och liggande läge och i Split View
+
+BEGRÄNSNINGAR
+Räckvidden beror på drönaren, vinden och bakgrundsljudet och är oftast kort. Motorer, sågar och liknande ljud kan ge falsklarm. Förlita dig inte på den här appen som enda källa för säkerhetskritiska beslut.

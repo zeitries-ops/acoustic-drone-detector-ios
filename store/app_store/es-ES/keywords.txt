@@ -1,0 +1,1 @@
+dron,uav,cuadricóptero,hélice,sonido,alerta,escuchar,fpv,seguridad,privacidad,ruido,detector

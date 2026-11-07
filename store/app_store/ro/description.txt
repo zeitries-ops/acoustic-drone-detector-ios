@@ -1,0 +1,24 @@
+Acoustic Drone Detector ascultă sunetul elicelor de dronă și te avertizează când una este în apropiere, chiar și când aplicația rulează în fundal.
+
+CUM FUNCȚIONEAZĂ
+• Elicele produc tonuri constante la frecvența de trecere a palelor și la multiplii ei exacți. Aplicația învață mai întâi sunetele din jurul tău, apoi caută sunete armonice noi.
+• Sunt cântărite indicii specifice dronelor: semnătura mai multor rotoare, turația variabilă, nivelul fluctuant și lipsa sincronizării cu rețeaua electrică. Ventilatoarele și aparatele de aer condiționat declanșează mult mai rar alerte.
+• O a doua opinie de la modelul audio YAMNet de la Google rulează pe dispozitivul tău. Decizia finală le combină pe amândouă.
+
+ADAPTAT LOCULUI
+Alege „În interior”, „Oraș” sau „Teren deschis”, iar sensibilitatea se adaptează. O poți regla fin oricând.
+
+ALERTE CARE ATRAG ATENȚIA
+O notificare urgentă cu ton SOS și vibrație.
+
+CONFIDENȚIAL DIN CONSTRUCȚIE
+Sunetul nu este niciodată înregistrat sau trimis nicăieri. Totul rulează pe iPhone-ul sau iPad-ul tău. Fără conturi, reclame sau urmărire.
+
+ȘI
+• Spectru live care evidențiază liniile armonice detectate
+• Jurnal al detecțiilor cu ora, durata și frecvența
+• „Ignoră acest sunet” pentru aparatele care bâzâie ca o dronă
+• Pentru iPhone și iPad, vertical, orizontal și în Split View
+
+LIMITE
+Raza de detecție depinde de dronă, vânt și zgomotul de fond și de obicei este mică. Motoarele, fierăstraiele și sunetele similare pot produce alarme false. Nu te baza pe această aplicație ca singură sursă pentru decizii critice de siguranță.

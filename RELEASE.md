@@ -42,12 +42,16 @@ ya da Xcode → Product → Archive → Distribute App → App Store Connect.
 
 Yeni uygulama: Platform iOS, ad "Acoustic Drone Detector", birincil dil English (U.S.), paket kimliği yukarıdaki, SKU serbest.
 
-Uygulama 27 dilde (cihaz dilini izler; mikrofon izni metni de her dilde). Mağaza metni şimdilik yalnızca İngilizce;
-App Store Connect'te başka diller eklenmezse her ülkede İngilizce sayfa görünür.
+Uygulama 27 dilde (cihaz dilini izler; mikrofon izni metni de her dilde). Mağaza metni 19 App Store yerelleştirmesinde hazır:
+`store/app_store/<dil>/` → en-US, uk, ru, pl, ro, he, ar-SA, tr, de-DE, fr-FR, es-ES, es-MX, fi, sv, zh-Hant, ja, ko, hi, ur.
+App Store Connect'te her dili **App Information → Localizable Information** ve sürüm sayfasında ekle; ad her dilde
+"Acoustic Drone Detector". Birmanca, Litvanca, Letonca, Estonca, Bulgarca, Farsça, Azerice, Ermenice ve Gürcüce
+App Store'un desteklediği diller değil; bu ülkelerde İngilizce sayfa görünür (uygulama yine kendi dilinde açılır).
+Ekran görüntüleri tek takım (İngilizce); dil eklenince App Store hepsine İngilizce görüntüleri kullanır.
 
 | Alan | Değer |
 |---|---|
-| Ad, alt başlık, tanıtım metni, açıklama, anahtar kelimeler | `store/app_store/en-US/*.txt` |
+| Ad, alt başlık, tanıtım metni, açıklama, anahtar kelimeler | `store/app_store/<dil>/*.txt` (inceleme notu yalnızca `en-US/review_notes.txt`) |
 | Destek URL'si / Gizlilik politikası URL'si | `support_url.txt` / `privacy_url.txt` (depo herkese açık kalmalı) |
 | Kategori | Utilities |
 | Yaş sınırı | Tüm sorulara "None" → 4+ |

@@ -1,0 +1,24 @@
+Acoustic Drone Detector escucha el sonido de las hélices de los drones y te avisa cuando hay uno cerca, incluso con la app en segundo plano.
+
+CÓMO FUNCIONA
+• Las hélices producen tonos estables en la frecuencia de paso de las palas y sus múltiplos exactos. La app aprende primero los sonidos de tu entorno y luego busca sonidos armónicos nuevos.
+• Se ponderan señales propias de los drones: la firma de varios rotores, una velocidad de giro variable, un nivel fluctuante y no estar sincronizado con la red eléctrica. Los ventiladores y aires acondicionados activan alertas con mucha menos frecuencia.
+• Una segunda opinión del modelo de audio YAMNet de Google se ejecuta en tu dispositivo. La decisión final combina ambas.
+
+AJUSTADO A DONDE ESTÁS
+Elige Interior, Ciudad o Campo abierto y la sensibilidad se adapta. Ajústala con precisión cuando quieras.
+
+ALERTAS QUE SE NOTAN
+Una notificación urgente con tono SOS y vibración.
+
+PRIVADO DESDE EL DISEÑO
+El audio nunca se graba ni se envía a ningún sitio. Todo funciona en tu iPhone o iPad. Sin cuentas, sin anuncios, sin rastreo.
+
+ADEMÁS
+• Espectro en vivo que resalta las líneas armónicas detectadas
+• Registro de detecciones con hora, duración y frecuencia
+• «Ignorar este sonido» para aparatos que zumban como un dron
+• Diseñada para iPhone y iPad, en vertical, horizontal y Split View
+
+LÍMITES
+El alcance de detección depende del dron, el viento y el ruido de fondo, y suele ser corto. Motores, sierras y sonidos similares pueden causar falsas alarmas. No confíes en esta app como única fuente para decisiones críticas de seguridad.

@@ -1,0 +1,1 @@
+drönare,uav,quadkopter,propeller,ljud,larm,lyssna,fpv,säkerhet,integritet,buller,detektor

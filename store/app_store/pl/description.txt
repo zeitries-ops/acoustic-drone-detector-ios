@@ -1,0 +1,24 @@
+Acoustic Drone Detector nasłuchuje dźwięku śmigieł drona i ostrzega, gdy jest w pobliżu, nawet gdy aplikacja działa w tle.
+
+JAK TO DZIAŁA
+• Śmigła wytwarzają stałe tony o częstotliwości przejścia łopat i jej dokładnych wielokrotnościach. Aplikacja najpierw uczy się dźwięków otoczenia, a potem szuka nowych dźwięków harmonicznych.
+• Brane są pod uwagę cechy drona: ślad kilku wirników, zmienna prędkość obrotów, wahania głośności i brak synchronizacji z siecią elektryczną. Wentylatory i klimatyzatory znacznie rzadziej wywołują alarm.
+• Druga opinia z modelu audio YAMNet firmy Google działa na Twoim urządzeniu. Ostateczna decyzja łączy obie oceny.
+
+DOPASOWANE DO MIEJSCA
+Wybierz „W budynku”, „Miasto” lub „Otwarty teren”, a czułość się dostosuje. Dostrój ją w dowolnej chwili.
+
+ALARMY, KTÓRE ZWRACAJĄ UWAGĘ
+Pilne powiadomienie z sygnałem SOS i wibracją.
+
+PRYWATNOŚĆ OD PODSTAW
+Dźwięk nigdy nie jest nagrywany ani nigdzie wysyłany. Wszystko działa na Twoim iPhonie lub iPadzie. Bez kont, reklam i śledzenia.
+
+DODATKOWO
+• Widmo na żywo z wyróżnionymi liniami harmonicznymi
+• Dziennik wykryć z godziną, czasem trwania i częstotliwością
+• „Ignoruj ten dźwięk” dla urządzeń, które buczą jak dron
+• Dla iPhone’a i iPada, w pionie, poziomie i Split View
+
+OGRANICZENIA
+Zasięg wykrywania zależy od drona, wiatru i hałasu tła i zwykle jest niewielki. Silniki, piły i podobne dźwięki mogą powodować fałszywe alarmy. Nie traktuj tej aplikacji jako jedynego źródła przy decyzjach dotyczących bezpieczeństwa.

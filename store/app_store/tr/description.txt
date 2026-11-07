@@ -1,0 +1,24 @@
+Acoustic Drone Detector drone pervanelerinin sesini dinler ve yakında bir drone olduğunda sizi uyarır; uygulama arka plandayken bile.
+
+NASIL ÇALIŞIR
+• Pervaneler, kanat geçiş frekansında ve onun tam katlarında sabit tonlar üretir. Uygulama önce çevrenizdeki sesleri öğrenir, sonra yeni harmonik sesleri arar.
+• Drone'a özgü ipuçları değerlendirilir: birden çok rotor izi, değişen devir, dalgalanan ses seviyesi ve şebeke frekansına kilitli olmama. Fan ve klimalar çok daha seyrek uyarı verir.
+• Google'ın YAMNet ses modeli cihazınızda ikinci görüş olarak çalışır. Son karar ikisini birleştirir.
+
+BULUNDUĞUNUZ YERE GÖRE
+Kapalı alan, Şehir veya Açık alan seçin; hassasiyet buna göre ayarlanır. İstediğiniz zaman ince ayar yapabilirsiniz.
+
+DİKKAT ÇEKEN UYARILAR
+SOS sesi ve titreşimle zamana duyarlı bildirim.
+
+TASARIMDAN GİZLİ
+Ses asla kaydedilmez ve hiçbir yere gönderilmez. Her şey iPhone veya iPad'inizde çalışır. Hesap, reklam ve izleme yok.
+
+AYRICA
+• Algılanan harmonik çizgileri vurgulayan canlı spektrum
+• Saat, süre ve frekansla algılama kaydı
+• Drone gibi uğuldayan cihazlar için "Bu sesi yoksay"
+• iPhone ve iPad için; dikey, yatay ve Split View
+
+SINIRLAR
+Algılama menzili drone'a, rüzgâra ve arka plan gürültüsüne bağlıdır ve genellikle kısadır. Motorlar, testereler ve benzeri sesler yanlış alarma yol açabilir. Güvenlik açısından kritik kararlarda bu uygulamayı tek kaynak olarak kullanmayın.

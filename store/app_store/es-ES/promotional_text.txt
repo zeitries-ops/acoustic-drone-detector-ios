@@ -1,0 +1,1 @@
+Oye el dron antes de verlo. Detección en el dispositivo y alerta SOS, incluso en segundo plano. Nada se graba ni se envía.
