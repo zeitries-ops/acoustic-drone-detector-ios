@@ -1,0 +1,2 @@
+/* 日本語 — tool/gen_l10n.py */
+"NSMicrophoneUsageDescription" = "Acoustic Drone Detector はドローンのプロペラ音を検知するためにマイクで聴取します。音声は録音されず、スマートフォンの外に送られることもありません。";

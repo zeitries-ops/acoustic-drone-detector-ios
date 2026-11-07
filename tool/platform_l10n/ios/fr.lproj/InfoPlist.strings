@@ -1,0 +1,2 @@
+/* Français — tool/gen_l10n.py */
+"NSMicrophoneUsageDescription" = "Acoustic Drone Detector écoute avec le micro pour détecter le bruit des hélices de drone. Le son n’est jamais enregistré ni envoyé hors du téléphone.";

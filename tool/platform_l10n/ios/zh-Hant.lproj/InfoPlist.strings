@@ -1,0 +1,2 @@
+/* 繁體中文 — tool/gen_l10n.py */
+"NSMicrophoneUsageDescription" = "Acoustic Drone Detector 會透過麥克風聆聽，以偵測無人機螺旋槳的聲音。絕不錄音，聲音也不會離開手機。";

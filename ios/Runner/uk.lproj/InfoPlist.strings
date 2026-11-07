@@ -1,0 +1,2 @@
+/* Українська — tool/gen_l10n.py */
+"NSMicrophoneUsageDescription" = "Acoustic Drone Detector слухає через мікрофон, щоб розпізнати звук пропелерів дрона. Звук ніколи не записується й не залишає телефон.";

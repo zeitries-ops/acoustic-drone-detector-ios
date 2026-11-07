@@ -1,0 +1,2 @@
+/* 한국어 — tool/gen_l10n.py */
+"NSMicrophoneUsageDescription" = "Acoustic Drone Detector은(는) 드론 프로펠러 소리를 감지하기 위해 마이크로 듣습니다. 소리는 절대 녹음되거나 휴대전화 밖으로 전송되지 않습니다.";

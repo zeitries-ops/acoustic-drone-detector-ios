@@ -1,0 +1,2 @@
+/* العربية — tool/gen_l10n.py */
+"NSMicrophoneUsageDescription" = "يستمع Acoustic Drone Detector عبر الميكروفون لاكتشاف صوت مراوح المسيّرات. لا يُسجَّل الصوت أبدًا ولا يُرسَل خارج الهاتف.";

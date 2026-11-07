@@ -1,0 +1,2 @@
+/* ქართული — tool/gen_l10n.py */
+"NSMicrophoneUsageDescription" = "Acoustic Drone Detector უსმენს მიკროფონით, რომ ამოიცნოს დრონის პროპელერების ხმა. ხმა არასდროს იწერება და არ იგზავნება ტელეფონიდან.";

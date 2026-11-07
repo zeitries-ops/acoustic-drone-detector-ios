@@ -1,0 +1,2 @@
+/* Polski — tool/gen_l10n.py */
+"NSMicrophoneUsageDescription" = "Acoustic Drone Detector nasłuchuje przez mikrofon, aby wykryć dźwięk śmigieł drona. Dźwięk nigdy nie jest nagrywany ani wysyłany z telefonu.";

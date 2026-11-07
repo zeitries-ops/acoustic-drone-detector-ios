@@ -1,0 +1,2 @@
+/* Suomi — tool/gen_l10n.py */
+"NSMicrophoneUsageDescription" = "Acoustic Drone Detector kuuntelee mikrofonilla tunnistaakseen droonin potkurien äänen. Ääntä ei koskaan tallenneta eikä lähetetä puhelimesta.";

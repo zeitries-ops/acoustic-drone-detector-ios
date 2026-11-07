@@ -1,0 +1,32 @@
+# Her değişiklikte: çeviriler, testler ve imzasız iOS derlemesi (herkese açık depoda macOS dakikaları ücretsiz).
+name: iOS derlemesi
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Çeviriler güncel mi
+        run: python3 tool/gen_l10n.py --check
+      - run: flutter pub get
+      - name: Kod analizi
+        run: flutter analyze --no-fatal-infos
+      - name: Testler
+        run: flutter test
+      - name: iOS derlemesi (imzasız)
+        run: |
+          flutter build ios --release --no-codesign
+          APP=build/ios/iphoneos/Runner.app
+          echo "boyut: $(du -sh "$APP" | cut -f1)"
+          plutil -extract CFBundleLocalizations raw -o - "$APP/Info.plist"

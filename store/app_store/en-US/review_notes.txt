@@ -1,0 +1,8 @@
+The app uses the microphone continuously, including in the background (UIBackgroundModes: audio), to detect drone propeller sound and alert the user with a local notification. Audio is processed on the device in real time; it is never recorded, stored or transmitted. No account is needed.
+
+How to test:
+1. Launch the app and pick a surroundings option (Indoors, City or Open area), then tap Continue.
+2. Tap "Start listening" and allow microphone and notification access. Keep the phone still for 3 seconds while it learns the background sound.
+3. Play a recording of a quadcopter drone flying (for example a drone flyby video) near the device. The status changes to "Drone sound" and an entry appears in the Log tab.
+4. Send the app to the background and play the recording again: a time-sensitive notification with an SOS tone appears.
+Tap "Stop listening" to stop using the microphone.

@@ -1,0 +1,2 @@
+/* Türkçe — tool/gen_l10n.py */
+"NSMicrophoneUsageDescription" = "Acoustic Drone Detector, drone pervane sesini algılamak için mikrofonu dinler. Ses asla kaydedilmez ve telefondan dışarı gönderilmez.";

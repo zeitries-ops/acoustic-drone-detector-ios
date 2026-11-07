@@ -1,0 +1,2 @@
+/* English — tool/gen_l10n.py */
+"NSMicrophoneUsageDescription" = "Acoustic Drone Detector listens through the microphone to detect drone propeller sound. Audio is never recorded or sent off the phone.";

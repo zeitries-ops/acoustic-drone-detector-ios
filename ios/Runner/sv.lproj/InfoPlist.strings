@@ -1,0 +1,2 @@
+/* Svenska — tool/gen_l10n.py */
+"NSMicrophoneUsageDescription" = "Acoustic Drone Detector lyssnar via mikrofonen för att upptäcka ljud från drönarpropellrar. Ljud spelas aldrig in eller skickas från telefonen.";

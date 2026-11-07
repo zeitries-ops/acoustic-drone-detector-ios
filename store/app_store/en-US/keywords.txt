@@ -1,0 +1,1 @@
+drone,detector,uav,quadcopter,propeller,acoustic,sound,alert,listen,fpv,privacy,security,noise
