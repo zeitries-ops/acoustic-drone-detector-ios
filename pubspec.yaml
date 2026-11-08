@@ -24,6 +24,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  # Eklentiler CocoaPods ile; Swift Package Manager kapalı (Xcode paket çözümleme hatası)
+  config:
+    enable-swift-package-manager: false
   assets:
     - assets/models/yamnet_embed.tflite
     - assets/models/YAMNET_LICENSE.txt

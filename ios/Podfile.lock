@@ -2,6 +2,9 @@ PODS:
   - drone_audio (1.0.0):
     - Flutter
   - Flutter (1.0.0)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
   - TensorFlowLiteC (2.12.0):
     - TensorFlowLiteC/Core (= 2.12.0)
   - TensorFlowLiteC/Core (2.12.0)
@@ -28,6 +31,7 @@ PODS:
 DEPENDENCIES:
   - drone_audio (from `.symlinks/plugins/drone_audio/ios`)
   - Flutter (from `Flutter`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
   - tflite_flutter (from `.symlinks/plugins/tflite_flutter/ios`)
 
 SPEC REPOS:
@@ -40,15 +44,18 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/drone_audio/ios"
   Flutter:
     :path: Flutter
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
   tflite_flutter:
     :path: ".symlinks/plugins/tflite_flutter/ios"
 
 SPEC CHECKSUMS:
-  drone_audio: 804a22703b920d25d0111f25cac5d4ab9dd1c3d1
+  drone_audio: 28415ad5f43879cbd3861d537995ae9700c23118
   Flutter: 71a624a5bc0c04062bf19101d501e466baf2fb47
+  shared_preferences_foundation: a7c3904f2dedb3701dd1903cb152ef5e7df92422
   TensorFlowLiteC: 20785a69299185a379ba9852b6625f00afd7984a
   TensorFlowLiteSwift: 3a4928286e9e35bdd3e17970f48e53c80d25e793
-  tflite_flutter: 9433d086a3060431bbc9f3c7c20d017db0e72d08
+  tflite_flutter: 64b192e11352fe36943ab6656e1d49207f1a5595
 
 PODFILE CHECKSUM: 53a6aebc29ccee84c41f92f409fc20cd4ca011f1
 

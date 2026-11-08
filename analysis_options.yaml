@@ -5,3 +5,4 @@ analyzer:
     - research/**
     - build/**
     - packages/**
+    - ios/**
