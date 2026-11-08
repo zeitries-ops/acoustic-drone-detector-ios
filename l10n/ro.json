@@ -148,6 +148,11 @@
   "beforeYouStart": "Înainte de a începe",
   "promptText": "Detecția e reglată după împrejurimi. Alege varianta cea mai apropiată; o poți schimba oricând în „{settings}”.",
   "continueButton": "Continuă",
+  "permTitle": "Două permisiuni rapide",
+  "permIntro": "Telefonul îți va cere acum acordul. Iată de ce.",
+  "permMicTitle": "Microfon",
+  "permMicText": "Ascultă sunetul elicelor. Sunetul este analizat pe telefon și nu este niciodată înregistrat sau trimis.",
+  "permNotifText": "O alertă SOS când se aude o dronă, chiar și când aplicația e în fundal.",
 
   "errMicBlocked": "Accesul la microfon e dezactivat. Permite aplicației {app} să folosească microfonul din Setări.",
   "errMicNeeded": "Pentru ascultare e nevoie de acces la microfon.",

@@ -148,6 +148,11 @@
   "beforeYouStart": "Enne alustamist",
   "promptText": "Tuvastus häälestatakse sinu ümbrusele. Vali lähim; saad seda igal ajal muuta jaotises „{settings}“.",
   "continueButton": "Jätka",
+  "permTitle": "Kaks kiiret luba",
+  "permIntro": "Telefon küsib neid kohe. Põhjus on selline.",
+  "permMicTitle": "Mikrofon",
+  "permMicText": "Kuulab propellerite heli. Heli analüüsitakse telefonis ning seda ei salvestata ega saadeta kunagi.",
+  "permNotifText": "SOS-hoiatus, kui kostab droon, ka siis, kui rakendus on taustal.",
 
   "errMicBlocked": "Juurdepääs mikrofonile on välja lülitatud. Luba seadetes rakendusel {app} mikrofoni kasutada.",
   "errMicNeeded": "Kuulamiseks on vaja juurdepääsu mikrofonile.",

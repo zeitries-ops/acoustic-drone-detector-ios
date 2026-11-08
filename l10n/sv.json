@@ -148,6 +148,11 @@
   "beforeYouStart": "Innan du börjar",
   "promptText": "Upptäckten anpassas efter din omgivning. Välj det som passar bäst; du kan ändra det när som helst under ”{settings}”.",
   "continueButton": "Fortsätt",
+  "permTitle": "Två snabba behörigheter",
+  "permIntro": "Telefonen frågar strax. Här är varför.",
+  "permMicTitle": "Mikrofon",
+  "permMicText": "Lyssnar efter propellerljud. Ljudet analyseras på telefonen och spelas aldrig in eller skickas.",
+  "permNotifText": "Ett SOS-larm när en drönare hörs, även när appen körs i bakgrunden.",
 
   "errMicBlocked": "Mikrofonåtkomst är avstängd. Tillåt {app} att använda mikrofonen i Inställningar.",
   "errMicNeeded": "Mikrofonåtkomst krävs för att lyssna.",

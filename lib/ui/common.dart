@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 import '../app/brand.dart';
 import '../app/theme.dart';
@@ -165,6 +166,81 @@ class FitPage extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+/// FitPage gibi sığdırır, ama ölçek değişimi (ör. dinleme başlayınca içerik uzayınca) ani değil yumuşak olur.
+/// İçeriğin doğal yüksekliği ölçülür; sığmıyorsa ölçek kısa bir animasyonla yeni değere gider.
+class SmoothFitPage extends StatefulWidget {
+  const SmoothFitPage({super.key, required this.child, this.alignment = Alignment.topCenter});
+  final Widget child;
+  final Alignment alignment;
+
+  @override
+  State<SmoothFitPage> createState() => _SmoothFitPageState();
+}
+
+class _SmoothFitPageState extends State<SmoothFitPage> {
+  double _h = 0; // içeriğin ölçeksiz yüksekliği
+
+  void _measured(double h) {
+    if (mounted && (h - _h).abs() > 0.5) setState(() => _h = h);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(builder: (context, c) {
+      if (!c.hasBoundedHeight || !c.hasBoundedWidth) return FitPage(alignment: widget.alignment, child: widget.child);
+      final target = (_h <= 0 || _h <= c.maxHeight) ? 1.0 : c.maxHeight / _h;
+      final reduce = MediaQuery.maybeDisableAnimationsOf(context) ?? false;
+      return ClipRect(
+        child: TweenAnimationBuilder<double>(
+          tween: Tween(end: target),
+          duration: reduce ? Duration.zero : const Duration(milliseconds: 280),
+          curve: Curves.easeOutCubic,
+          builder: (context, s, child) => SizedBox(
+            width: c.maxWidth,
+            height: c.maxHeight,
+            child: OverflowBox(
+              alignment: widget.alignment,
+              minWidth: c.maxWidth,
+              maxWidth: c.maxWidth,
+              minHeight: 0,
+              maxHeight: double.infinity,
+              child: Transform.scale(scale: s, alignment: widget.alignment, child: child),
+            ),
+          ),
+          child: _MeasureHeight(onChange: _measured, child: widget.child),
+        ),
+      );
+    });
+  }
+}
+
+class _MeasureHeight extends SingleChildRenderObjectWidget {
+  const _MeasureHeight({required this.onChange, required super.child});
+  final ValueChanged<double> onChange;
+
+  @override
+  RenderObject createRenderObject(BuildContext context) => _RenderMeasureHeight(onChange);
+
+  @override
+  void updateRenderObject(BuildContext context, _RenderMeasureHeight renderObject) => renderObject.onChange = onChange;
+}
+
+class _RenderMeasureHeight extends RenderProxyBox {
+  _RenderMeasureHeight(this.onChange);
+  ValueChanged<double> onChange;
+  double? _last;
+
+  @override
+  void performLayout() {
+    super.performLayout();
+    final h = size.height;
+    if (h != _last) {
+      _last = h;
+      WidgetsBinding.instance.addPostFrameCallback((_) => onChange(h));
+    }
   }
 }
 

@@ -148,6 +148,11 @@
   "beforeYouStart": "Prieš pradedant",
   "promptText": "Aptikimas derinamas prie jūsų aplinkos. Pasirinkite artimiausią; bet kada galėsite pakeisti skiltyje „{settings}“.",
   "continueButton": "Tęsti",
+  "permTitle": "Du greiti leidimai",
+  "permIntro": "Telefonas tuoj paklaus. Štai kodėl.",
+  "permMicTitle": "Mikrofonas",
+  "permMicText": "Klausosi propelerių garso. Garsas analizuojamas telefone ir niekada neįrašomas ar nesiunčiamas.",
+  "permNotifText": "SOS įspėjimas, kai girdimas dronas, net kai programėlė veikia fone.",
 
   "errMicBlocked": "Prieiga prie mikrofono išjungta. Nustatymuose leiskite {app} naudoti mikrofoną.",
   "errMicNeeded": "Norint klausytis reikia prieigos prie mikrofono.",

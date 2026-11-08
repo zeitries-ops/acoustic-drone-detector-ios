@@ -148,6 +148,11 @@
   "beforeYouStart": "開始之前",
   "promptText": "偵測會依你的環境調整。請選擇最接近的選項；之後隨時可在「{settings}」中變更。",
   "continueButton": "繼續",
+  "permTitle": "兩項簡單權限",
+  "permIntro": "手機接著會詢問你，原因如下。",
+  "permMicTitle": "麥克風",
+  "permMicText": "聆聽螺旋槳聲音。聲音只在手機上分析，絕不錄音也不傳送。",
+  "permNotifText": "聽到無人機時發出 SOS 警示，App 在背景執行時也有效。",
 
   "errMicBlocked": "麥克風權限已關閉。請在「設定」中允許 {app} 使用麥克風。",
   "errMicNeeded": "需要麥克風權限才能聆聽。",

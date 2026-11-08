@@ -148,6 +148,11 @@
   "beforeYouStart": "Pirms sākat",
   "promptText": "Noteikšana tiek pielāgota jūsu apkārtnei. Izvēlieties tuvāko; to jebkurā laikā var mainīt sadaļā “{settings}”.",
   "continueButton": "Turpināt",
+  "permTitle": "Divas ātras atļaujas",
+  "permIntro": "Tūlīt tālrunis to pajautās. Lūk, kāpēc.",
+  "permMicTitle": "Mikrofons",
+  "permMicText": "Klausās propelleru skaņu. Skaņa tiek analizēta tālrunī un nekad netiek ierakstīta vai nosūtīta.",
+  "permNotifText": "SOS brīdinājums, kad dzirdams drons, pat ja lietotne darbojas fonā.",
 
   "errMicBlocked": "Piekļuve mikrofonam ir izslēgta. Iestatījumos atļaujiet {app} izmantot mikrofonu.",
   "errMicNeeded": "Lai klausītos, nepieciešama piekļuve mikrofonam.",

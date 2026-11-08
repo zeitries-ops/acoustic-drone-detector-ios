@@ -6,6 +6,7 @@ import '../app/theme.dart';
 import '../core/detector.dart';
 import '../l10n/strings.dart';
 import 'common.dart';
+import 'permission_prompt.dart';
 
 /// Dinle sayfası: durum, düğmeler ve gerekçeler. Kaydırılmaz; sığmazsa orantılı küçülür.
 /// Düzen ve renkler ilk v2'deki gibidir; yalnızca yazı tipi (Poppins) yenidir. Spektrum ayrı sayfada.
@@ -18,7 +19,8 @@ class ListenPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(builder: (context, c) {
       final two = useTwoColumns(c.biggest); // durum solda, ölçümler sağda
-      return FitPage(
+      // Dinleme başlayınca içerik uzar; ölçek ani değil yumuşak değişsin (kart zıplamasın).
+      return SmoothFitPage(
         child: Center(
           child: ConstrainedBox(
             constraints: BoxConstraints(maxWidth: two ? 1100 : 680),
@@ -99,7 +101,13 @@ class LivePanel extends StatelessWidget {
           runSpacing: 10,
           children: [
             FilledButton.icon(
-              onPressed: m.starting ? null : m.toggle,
+              onPressed: m.starting
+                  ? null
+                  : () async {
+                      // İlk dinlemede iOS izin pencerelerinden önce neden gerektiklerini anlat.
+                      if (!m.listening && m.needsPermissionPrimer && !await showPermissionPrimer(context)) return;
+                      await m.toggle();
+                    },
               icon: Icon(m.listening ? Icons.stop_rounded : Icons.mic_rounded),
               label: Text(m.starting ? t.startingButton : (m.listening ? t.stopListening : t.startListening)),
               style: FilledButton.styleFrom(

@@ -148,6 +148,11 @@
   "beforeYouStart": "Ennen kuin aloitat",
   "promptText": "Tunnistus sovitetaan ympäristöösi. Valitse lähin; voit muuttaa sitä milloin tahansa kohdassa ”{settings}”.",
   "continueButton": "Jatka",
+  "permTitle": "Kaksi pikalupaa",
+  "permIntro": "Puhelin kysyy niitä seuraavaksi. Syy:",
+  "permMicTitle": "Mikrofoni",
+  "permMicText": "Kuuntelee potkurien ääntä. Ääni analysoidaan puhelimessa, eikä sitä koskaan tallenneta tai lähetetä.",
+  "permNotifText": "SOS-hälytys, kun drone kuuluu, myös kun appi on taustalla.",
 
   "errMicBlocked": "Mikrofonin käyttö on estetty. Salli asetuksista, että {app} saa käyttää mikrofonia.",
   "errMicNeeded": "Kuunteluun tarvitaan mikrofonin käyttöoikeus.",

@@ -148,6 +148,11 @@
   "beforeYouStart": "Antes de empezar",
   "promptText": "La detección se ajusta a tu entorno. Elige el más parecido; puedes cambiarlo cuando quieras en «{settings}».",
   "continueButton": "Continuar",
+  "permTitle": "Dos permisos rápidos",
+  "permIntro": "Tu teléfono te los pedirá ahora. Este es el motivo.",
+  "permMicTitle": "Micrófono",
+  "permMicText": "Escucha el sonido de las hélices. El audio se analiza en el teléfono y nunca se graba ni se envía.",
+  "permNotifText": "Una alerta SOS cuando se oye un dron, incluso con la app en segundo plano.",
 
   "errMicBlocked": "El acceso al micrófono está desactivado. Permite que {app} use el micrófono en Ajustes.",
   "errMicNeeded": "Se necesita acceso al micrófono para escuchar.",

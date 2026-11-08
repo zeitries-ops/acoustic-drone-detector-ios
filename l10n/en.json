@@ -148,6 +148,11 @@
   "beforeYouStart": "Before you start",
   "promptText": "Detection is tuned to your surroundings. Pick the closest match; you can change it any time in {settings}.",
   "continueButton": "Continue",
+  "permTitle": "Two quick permissions",
+  "permIntro": "Your phone will ask next. Here's why.",
+  "permMicTitle": "Microphone",
+  "permMicText": "Listens for propeller sound. Audio is analysed on the phone and never recorded or sent.",
+  "permNotifText": "An SOS alert when a drone is heard, even while the app is in the background.",
 
   "errMicBlocked": "Microphone access is off. Allow {app} to use the microphone in Settings.",
   "errMicNeeded": "Microphone access is needed to listen.",

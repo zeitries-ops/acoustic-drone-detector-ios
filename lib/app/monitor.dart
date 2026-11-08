@@ -118,6 +118,12 @@ class Monitor extends ChangeNotifier with WidgetsBindingObserver {
 
   Future<void> toggle() => listening ? stop() : start();
 
+  /// Mikrofon izni henüz sorulmadı: ilk dinlemeden önce izin açıklaması gösterilir.
+  bool get needsPermissionPrimer {
+    final p = permissions;
+    return p != null && !p.microphone && !p.microphoneBlocked;
+  }
+
   Future<void> start() async {
     if (listening || starting) return;
     starting = true;

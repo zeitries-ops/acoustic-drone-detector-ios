@@ -148,6 +148,11 @@
   "beforeYouStart": "Başlamadan önce",
   "promptText": "Algılama ortamınıza göre ayarlanır. En yakın olanı seçin; istediğiniz zaman {settings} bölümünden değiştirebilirsiniz.",
   "continueButton": "Devam",
+  "permTitle": "İki kısa izin",
+  "permIntro": "Telefonun şimdi izin isteyecek. Nedeni şu:",
+  "permMicTitle": "Mikrofon",
+  "permMicText": "Pervane sesini dinler. Ses telefonda analiz edilir; asla kaydedilmez veya gönderilmez.",
+  "permNotifText": "Drone sesi duyulduğunda SOS uyarısı, uygulama arka plandayken bile.",
 
   "errMicBlocked": "Mikrofon erişimi kapalı. Ayarlar'dan {app} uygulamasının mikrofonu kullanmasına izin verin.",
   "errMicNeeded": "Dinlemek için mikrofon erişimi gerekli.",

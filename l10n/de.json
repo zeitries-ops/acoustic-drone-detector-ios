@@ -148,6 +148,11 @@
   "beforeYouStart": "Bevor es losgeht",
   "promptText": "Die Erkennung wird auf Ihre Umgebung abgestimmt. Wählen Sie die passendste; Sie können sie jederzeit unter „{settings}“ ändern.",
   "continueButton": "Weiter",
+  "permTitle": "Zwei kurze Berechtigungen",
+  "permIntro": "Gleich fragt dein Telefon danach. Darum:",
+  "permMicTitle": "Mikrofon",
+  "permMicText": "Lauscht auf Propellergeräusche. Der Ton wird auf dem Telefon ausgewertet und nie aufgenommen oder gesendet.",
+  "permNotifText": "Ein SOS-Alarm, wenn eine Drohne zu hören ist – auch wenn die App im Hintergrund läuft.",
 
   "errMicBlocked": "Mikrofonzugriff ist aus. Erlauben Sie {app} in den Einstellungen die Nutzung des Mikrofons.",
   "errMicNeeded": "Zum Zuhören wird Mikrofonzugriff benötigt.",

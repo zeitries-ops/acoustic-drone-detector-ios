@@ -148,6 +148,11 @@
   "beforeYouStart": "Zanim zaczniesz",
   "promptText": "Wykrywanie jest dostosowane do otoczenia. Wybierz najbliższą opcję; możesz ją zmienić w każdej chwili w sekcji „{settings}”.",
   "continueButton": "Dalej",
+  "permTitle": "Dwa szybkie uprawnienia",
+  "permIntro": "Za chwilę telefon zapyta o zgodę. Oto dlaczego.",
+  "permMicTitle": "Mikrofon",
+  "permMicText": "Nasłuchuje dźwięku śmigieł. Dźwięk jest analizowany w telefonie i nigdy nie jest nagrywany ani wysyłany.",
+  "permNotifText": "Alarm SOS, gdy słychać drona, także gdy aplikacja działa w tle.",
 
   "errMicBlocked": "Dostęp do mikrofonu jest wyłączony. Zezwól aplikacji {app} na użycie mikrofonu w ustawieniach.",
   "errMicNeeded": "Do nasłuchu potrzebny jest dostęp do mikrofonu.",

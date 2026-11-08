@@ -148,6 +148,11 @@
   "beforeYouStart": "Başlamazdan əvvəl",
   "promptText": "Aşkarlama mühitinizə görə tənzimlənir. Ən yaxın variantı seçin; istənilən vaxt “{settings}” bölməsində dəyişə bilərsiniz.",
   "continueButton": "Davam et",
+  "permTitle": "İki qısa icazə",
+  "permIntro": "Telefon indi icazə istəyəcək. Səbəbi budur.",
+  "permMicTitle": "Mikrofon",
+  "permMicText": "Pərvanə səsini dinləyir. Səs telefonda təhlil edilir, heç vaxt yazılmır və göndərilmir.",
+  "permNotifText": "Dron səsi eşidiləndə SOS xəbərdarlığı, tətbiq arxa fonda olsa belə.",
 
   "errMicBlocked": "Mikrofona giriş söndürülüb. Ayarlarda {app} tətbiqinə mikrofondan istifadə icazəsi verin.",
   "errMicNeeded": "Dinləmək üçün mikrofona giriş lazımdır.",

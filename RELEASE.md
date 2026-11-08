@@ -56,10 +56,10 @@ Ekran görüntüleri tek takım (İngilizce); dil eklenince App Store hepsine İ
 | Kategori | Utilities |
 | Yaş sınırı | Tüm sorulara "None" → 4+ |
 | App Privacy | **Data Not Collected** (ses cihazdan çıkmaz, hesap/analitik/reklam yok) |
-| Ekran görüntüleri | iPhone 6,9" (1320×2868): `store/app_store/screenshots/iphone_*.png` · iPad 13" (2064×2752): `ipad_*.png` |
+| Ekran görüntüleri | Başlıklı olanlar: `store/app_store/framed/` → iPhone 6,9" (1320×2868) `iphone_1…5.png`, iPad 13" (2064×2752) `ipad_1…4.png`. Ham ekranlar `screenshots/`; yeniden üretmek için `python3 tool/make_store_shots.py` |
 | İnceleme notu (App Review Information → Notes) | `review_notes.txt` |
 | Telif hakkı | "2026 Adın Soyadın" |
-| Fiyat | Ücretsiz (ya da seçtiğin) |
+| Fiyat | Planlanan 9,99 USD (ücretli). Önce App Store Connect → Business: **Paid Applications** sözleşmesi, banka ve vergi bilgileri. TestFlight için gerekmez |
 
 Önce **TestFlight** ile kendi telefonunda dene, sonra "Add for Review".
 
