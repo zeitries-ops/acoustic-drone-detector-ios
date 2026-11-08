@@ -2,11 +2,11 @@
 # Android ve iOS proje klasörlerini oluşturur ve Acoustic Drone Detector ayarlarını uygular.
 # Kullanım:  bash tool/setup_platforms.sh        (depo kökünde)
 # Kimlik değiştirmek için:  ORG=com.sirketim bash tool/setup_platforms.sh
-# iOS yayın için:  IOS_BUNDLE_ID=com.osmanemreaydin.droneKulagi IOS_TEAM_ID=ABCDE12345 bash tool/setup_platforms.sh
+# iOS yayın için:  IOS_BUNDLE_ID=com.zeitries.dronedetector IOS_TEAM_ID=ABCDE12345 bash tool/setup_platforms.sh
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-ORG="${ORG:-com.osmanemreaydin}"
+ORG="${ORG:-com.zeitries}"
 APP_NAME="Drone Detector"  # ana ekran etiketi (kısa); mağaza ve uygulama içi ad: lib/app/brand.dart
 MIC_TEXT="Acoustic Drone Detector listens through the microphone to detect drone propeller sound. Audio is never recorded or sent off the phone."
 

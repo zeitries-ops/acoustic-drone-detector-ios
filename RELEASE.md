@@ -16,7 +16,7 @@ flutter build ios --config-only --no-codesign
 ```
 
 iOS projesi (`ios/`) hazır gelir; ayrıca betik çalıştırmak gerekmez. Paket kimliği
-`com.osmanemreaydin.droneKulagi` (ilk yüklemeden sonra değiştirilemez). Ekip (Team) Xcode'da seçilir.
+`com.zeitries.dronedetector` (ilk yüklemeden sonra değiştirilemez). Ekip (Team) Xcode'da seçilir.
 
 ## 3. Önce gerçek cihazda dene
 

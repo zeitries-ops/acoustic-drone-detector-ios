@@ -25,7 +25,7 @@ open ios/Runner.xcworkspace          # .xcodeproj değil, .xcworkspace
 ```
 
 Xcode'da **Runner → Signing & Capabilities**: kendi ekibini (Team) seç. Paket kimliği
-`com.osmanemreaydin.droneKulagi`; ilk App Store yüklemesinden sonra değiştirilemez.
+`com.zeitries.dronedetector`; ilk App Store yüklemesinden sonra değiştirilemez.
 **Background Modes → Audio** ve **Time Sensitive Notifications** hazır gelir.
 
 Telefonda denemek için iPhone'u bağla ve Run'a bas. Mağazaya yüklemek için **Product → Archive →
@@ -54,7 +54,7 @@ Distribute App → App Store Connect**. Ayrıntılı adımlar ve App Store Conne
 | `test/` | Testler (`flutter test`) |
 
 `ios/` klasörü `tool/setup_platforms.sh` ile üretildi; yeniden üretmek gerekirse:
-`IOS_BUNDLE_ID=com.osmanemreaydin.droneKulagi IOS_TEAM_ID=EKIP bash tool/setup_platforms.sh`.
+`IOS_BUNDLE_ID=com.zeitries.dronedetector IOS_TEAM_ID=EKIP bash tool/setup_platforms.sh`.
 
 ## Teşekkür ve lisanslar
 
