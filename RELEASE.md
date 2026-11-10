@@ -4,7 +4,7 @@ Uygulama: **Acoustic Drone Detector** · ana ekran adı "Drone Detector" · sür
 
 ## 1. Mac'te hazırlık (bir kez)
 
-- Xcode 16 veya üstü, Flutter (stable), CocoaPods (`sudo gem install cocoapods`).
+- Xcode 26 veya üstü (App Store yalnızca iOS 26 SDK ile derlenen uygulamaları kabul ediyor; birden çok Xcode varsa `sudo xcode-select -s /Applications/Xcode-26.3.app`), Flutter (stable), CocoaPods (`sudo gem install cocoapods`).
 - Apple Developer hesabında oturum açık Xcode (Xcode → Settings → Accounts).
 
 ## 2. Projeyi aç

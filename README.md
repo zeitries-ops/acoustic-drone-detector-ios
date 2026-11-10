@@ -13,7 +13,7 @@ Mac'te klonla, iki komut çalıştır, Xcode'da Archive al.
 
 ## Mac'te açma
 
-Gerekenler: Xcode 16+, [Flutter](https://docs.flutter.dev/get-started/install/macos) (stable), CocoaPods
+Gerekenler: Xcode 26+ (App Store artık iOS 26 SDK istiyor), [Flutter](https://docs.flutter.dev/get-started/install/macos) (stable), CocoaPods
 (`sudo gem install cocoapods`).
 
 ```bash
