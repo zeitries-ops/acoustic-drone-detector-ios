@@ -1,24 +1,29 @@
-Acoustic Drone Detector listens for the sound of drone propellers and alerts you when one is nearby, even while the app is in the background.
+Acoustic Drone Detector turns your iPhone or iPad into an acoustic drone sensor. It listens for the sound of propellers and alerts you when a drone is nearby, even while the app is in the background.
+
+WHAT SETS IT APART
+• Real-time FFT spectrum analysis: a 4,096-point FFT over 0–4 kHz, with a live spectrogram that marks the propeller's harmonic lines as they appear
+• Harmonic signature detection: finds the blade-pass frequency and its exact multiples, the acoustic fingerprint of spinning rotors
+• On-device AI second opinion: Google's YAMNet audio neural network runs locally on your device, and its verdict is combined with the signal analysis
+• Live readouts: blade-pass frequency, estimated rotor speed (RPM), harmonic strength, ambient level in dBFS and an approaching / moving-away trend
+• Fan and air-conditioner rejection: checks whether a hum is locked to mains power, keeps a perfectly steady speed or comes from a single rotor
+• Time-sensitive SOS alerts with sound and vibration, also in the background
 
 HOW IT WORKS
-• Propellers create steady tones at the blade-pass frequency and its exact multiples. The app first learns the sounds around you, then looks for new harmonic sounds.
-• Drone-specific cues are weighed: the signature of several rotors, a varying rotor speed, a fluctuating level and not being locked to mains power. Fans and air conditioners are far less likely to trigger an alert.
-• A second opinion from Google's YAMNet audio model runs on your device. The final decision combines both.
+• The app first learns the sounds around you for 3 seconds, then looks for new harmonic sounds.
+• Drone-specific cues are weighed: several rotors, a varying rotor speed, a fluctuating level and no lock to mains power.
+• The final decision combines the harmonic analysis and the AI model. Every cue is shown on screen, so you can see why the app decided.
 
 TUNED TO WHERE YOU ARE
-Choose Indoors, City or Open area and the sensitivity adapts. Fine-tune it any time.
-
-ALERTS THAT GET ATTENTION
-A time-sensitive notification with an SOS tone and vibration.
+Choose Indoors, City or Open area and the sensitivity adapts. Pick the drone type (multicopter, FPV / racing or wide range) and fine-tune any time.
 
 PRIVATE BY DESIGN
 Audio is never recorded or sent anywhere. Everything runs on your iPhone or iPad. No accounts, no ads, no tracking.
 
 ALSO
-• Live spectrum view that highlights the detected harmonic lines
-• Detection log with time, duration and frequency
+• Detection log with time, duration, frequency and peak level
 • "Ignore this sound" for devices that hum like a drone
-• Designed for iPhone and iPad, in portrait, landscape and Split View
+• 27 languages
+• Designed for iPhone and iPad, in portrait, landscape and Split View, with a true-black display that saves battery on OLED screens
 
 LIMITS
 Detection range depends on the drone, wind and background noise and is usually short. Engines, saws and similar sounds can cause false alarms. Do not rely on this app as the only source for safety-critical decisions.

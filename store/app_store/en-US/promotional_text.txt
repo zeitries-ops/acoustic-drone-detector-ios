@@ -1,1 +1,1 @@
-Hear drones before you see them. On-device detection with an SOS alert, even in the background. Nothing is recorded or uploaded.
+Hear drones before you see them. Live FFT spectrum, on-device AI and SOS alerts, even in the background. Nothing is recorded or uploaded.
